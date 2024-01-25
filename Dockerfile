@@ -10,8 +10,8 @@ RUN apt-get update && \
 ENV DATA_DIR="/serverdata"
 ENV STEAMCMD_DIR="${DATA_DIR}/steamcmd"
 ENV SERVER_DIR="${DATA_DIR}/serverfiles"
-ENV GAME_ID=2278520
-ENV GAME_NAME="Enshrouded Dedicated Server"
+ENV GAME_ID="template"
+ENV GAME_NAME="template"
 ENV GAME_PARAMS="template"
 ENV GAME_PORT=15636
 ENV QUERY_PORT=15637
